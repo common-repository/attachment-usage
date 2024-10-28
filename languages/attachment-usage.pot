@@ -1,0 +1,314 @@
+# Copyright (C) 2020 Konstantin Kröpfl
+# This file is distributed under the same license as the Attachment Usage plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Attachment Usage 1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/attachment-usage\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-11T16:49:21+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: attachment-usage\n"
+
+#. Plugin Name of the plugin
+msgid "Attachment Usage"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/attachment-usage/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Find your attachment/media files used by different locations (posts, pages, widgets, galleries etc.) on your website."
+msgstr ""
+
+#. Author of the plugin
+msgid "Konstantin Kröpfl"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "#"
+msgstr ""
+
+#: admin/class-attachment-usage-admin.php:94
+#: includes/class-attachment-usage.php:103
+msgid "Attachment Usages"
+msgstr ""
+
+#: admin/class-attachment-usage-admin.php:114
+#: admin/classes/rating-banner.php:34
+msgid "No valid Ajax request"
+msgstr ""
+
+#: admin/class-attachment-usage-admin.php:122
+msgid "No valid Attachment Id sent"
+msgstr ""
+
+#: admin/classes/attachment-list-table.php:17
+msgid "Status"
+msgstr ""
+
+#: admin/classes/attachment-list-table.php:19
+msgid "Usages"
+msgstr ""
+
+#: admin/classes/attachment-list-table.php:41
+#: admin/classes/attachment-list-table.php:62
+msgid "not-found"
+msgstr ""
+
+#: admin/classes/attachment-list-table.php:43
+#: admin/classes/attachment-list-table.php:64
+msgid "found"
+msgstr ""
+
+#: admin/classes/fetch-button-content-helper.php:18
+#: admin/js/attachment-usage-media-library-behavior.js:62
+msgid "Fetch Attachment Usage"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:25
+msgid "(in widget)"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:26
+msgid "Widgets"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:31
+msgid "(in product category)"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:32
+msgid "Product Category"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:37
+msgid "(in product gallery)"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:38
+msgid "Product Attachment"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:43
+msgid "(in product content)"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:44
+msgid "Product Content"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:49
+msgid "(in post content)"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:50
+msgid "Post Content"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:55
+msgid "(in page content)"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:56
+msgid "Page Content"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:61
+msgid "(thumbnail)"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:62
+msgid "Post Attachment"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:69
+msgid "(in content)"
+msgstr ""
+
+#: admin/classes/output_setting/attachment-output-setting-factory.php:70
+msgid "Custom Post Type: %s"
+msgstr ""
+
+#: admin/classes/rating-banner.php:39
+msgid "Banner has been dismissed"
+msgstr ""
+
+#: admin/classes/rating-banner.php:41
+msgid "Something went wrong - try again."
+msgstr ""
+
+#: admin/classes/result_builder/result-builder-controller.php:36
+msgid "Attachment not found"
+msgstr ""
+
+#: admin/partials/rating-banner.php:7
+msgid "Attachment Usage says Thank you!"
+msgstr ""
+
+#: admin/partials/rating-banner.php:9
+msgid "I hope the \"Attachment Usage\" plugin helps you working more efficient on your site. If you like it, it would be very kind if you rate the plugin."
+msgstr ""
+
+#: admin/partials/rating-banner.php:13
+msgid "Dismiss"
+msgstr ""
+
+#: admin/partials/rating-banner.php:15
+msgid "Rate Attachment Usage"
+msgstr ""
+
+#: admin/settings_page/elements/validators/email-validator.php:9
+msgid "No valid Email"
+msgstr ""
+
+#: admin/settings_page/elements/validators/file-validator.php:9
+msgid "The entered data is no valid attachment id"
+msgstr ""
+
+#: admin/settings_page/elements/validators/number-validator.php:9
+msgid "The entered data is not valid - just numbers"
+msgstr ""
+
+#: admin/settings_page/elements/validators/string-validator.php:12
+msgid "The entered data is not valid - just text"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/options.php:8
+msgid "Attachment Usage Settings"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:15
+msgid "On this page you can modify the appearance and the way how the plugin does the lookup. The relevant pages (media upload pages) are referred as:<br> <a href=\"%1$s\" target=\"_blank\">Media Grid</a> & <a href=\"%2$s\" target=\"_blank\">Media List</a>"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:25
+msgid "General Settings"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:29
+msgid "This section provides general settings, which impacts only the appearance of the usage status."
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:38
+msgid "Performance Settings"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:42
+msgid "This section provides settings for performance, which might have a significant impact on the loading time of the media upload pages.</br> If you have a rather small site (little number of pages, a few attachments) you will not notice a huge difference by switching between the options."
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:56
+msgid "Display Attachment Usage Color"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:62
+msgid "By enabling this option, the media grid items will have a colored border depending on their usage. Red implies nothing found, whereas green shows an usage"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:69
+msgid "Display color"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:70
+msgid "Hide color"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:78
+msgid "Filter attachment list by usage"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:84
+msgid "By enabling this option, the media list view will contain a sortable column, which allows to sort the attachments by their usage status (found/not-found). This can be helpful to get an overview about not used attachments.</br> Furthermore it is important to note that by enabling this option the process of saving the relevant information changes and this can lead to longer loading times on the media upload pages depending on the overall amount of attachments and size of the website."
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:96
+msgid "Make media column sortable"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:97
+msgid "Do not make media column sortable"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:105
+msgid "Sync Attachment Usage on media upload site"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:111
+msgid "By enabling this option, the attachment relevant data will be fetched as soon as the media upload pages is opened. By disabling this option, a button on the page will trigger the lookup process when clicked."
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:119
+msgid "Auto-sync attachments usage on page visit"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:120
+msgid "Do not auto-sync attachments usage"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:128
+msgid "Display Attachment Usage in List View"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:134
+msgid "By enabling this option, the usage of the attachment will be displayed in a separate column in the media list view."
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:140
+msgid "Display attachment usage in list view"
+msgstr ""
+
+#: admin/settings_page/pages/attachment_usage_page/page_elements.php:141
+msgid "Do not display attachment usage in list view"
+msgstr ""
+
+#: admin/settings_page/setting-string-helper.php:8
+msgid "Field \"%s\" is required"
+msgstr ""
+
+#: admin/settings_page/setting-string-helper.php:9
+msgid "Do not change value of field \"%s\""
+msgstr ""
+
+#: admin/settings_page/setting-string-helper.php:19
+msgid "Field is required"
+msgstr ""
+
+#: admin/settings_page/setting-string-helper.php:20
+msgid "Do not change value of field"
+msgstr ""
+
+#: admin/settings_page/templates/pages/menu_page.php:16
+#: admin/settings_page/templates/pages/tabbed_menu_page.php:31
+msgid "Fields marked with * are required"
+msgstr ""
+
+#: admin/settings_page/templates/pages/menu_page.php:19
+msgid "Save Settings"
+msgstr ""
+
+#: admin/settings_page/templates/settings/fields/file.php:7
+msgid "Upload File"
+msgstr ""
+
+#: admin/settings_page/templates/settings/fields/file.php:14
+msgid "Remove File"
+msgstr ""
+
+#: admin/settings_page/templates/settings/fields/image.php:8
+msgid "Upload Image"
+msgstr ""
+
+#: admin/settings_page/templates/settings/fields/image.php:11
+msgid "Remove Image"
+msgstr ""
+
+#: admin/js/attachment-usage-media-frame.js:19
+#: admin/js/attachment-usage-media-frame.js:25
+msgid "Choose Attachment"
+msgstr ""

@@ -1,0 +1,85 @@
+.media-frame.mode-grid .attachment.not-found, .attachments-browser .attachment.not-found{
+    box-shadow: inset 0 0 2px 3px #f1f1f1,inset 0 0 0 7px #eb3109;
+    outline: 2px solid transparent;
+    outline-offset: -6px;
+}
+
+.media-frame.mode-grid .attachment.found, .attachments-browser .attachment.found{
+    box-shadow: inset 0 0 2px 3px #f1f1f1,inset 0 0 0 7px #95fc3f;
+    outline: 2px solid transparent;
+    outline-offset: -6px;
+}
+
+.compat-field-media_usage h4, .attachment-usage-wrapper h4{
+    margin-bottom:0;
+}
+
+.compat-field-media_usage h4:first-of-type{
+    margin-top:8px;
+}
+
+.spinner.show{
+    visibility: visible;
+}
+
+.spinner.hide{
+    visibility: hidden;
+}
+
+#attachment-usage-table{
+    display:inline;
+    float:right;
+}
+
+.media-toolbar button.fetch-attachment-usage{
+    margin: 0 8px 0 0;
+    vertical-align: middle;
+}
+
+.image-wrapper .preview-holder{
+    max-width:300px;
+    display:block;
+}
+
+.file-wrapper .file-link{
+    display:block;
+} 
+
+.remove-attachment.hide{
+    display:none;
+}
+
+.au-rating-banner .spinner.show{
+    visibility:visible;
+}
+
+.au-rating-banner .spinner{
+    float:none;
+    margin-top:0;
+}
+
+.au-rating-banner .content p{
+    display:inline-block;
+}
+
+.au-rating-banner{
+    position:relative;
+}
+
+.au-rating-banner a.au-dismiss-rating-banner{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+.column-attachment-usage-display h4{
+    margin:12px 0 0 0;
+}
+
+.column-attachment-usage-display h4:nth-of-type(1){
+    margin:0;
+}
+
+.fixed .column-attachment-usage{
+    width:10%;
+}
